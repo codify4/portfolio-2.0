@@ -125,7 +125,7 @@ export const DATA = {
         "",
     },
     {
-      title: "Magic UI",
+      title: "Foundr",
       href: "https://foundr.vercel.app/",
       dates: "September 2024 - Present",
       active: true,
