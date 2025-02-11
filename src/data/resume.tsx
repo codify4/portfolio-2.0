@@ -229,6 +229,31 @@ export const DATA = {
       image: "/quick-cash.png",
       video: "",
     },
+    {
+      title: "Sneaky Games",
+      href: "https://sneaky-games.vercel.app/",
+      dates: "February 2025 - Present",
+      active: true,
+      description:
+        "Play games anywhere. Even at school...",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Supabase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sneaky-games.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/sneaky.png",
+      video: "",
+    },
   ],
   hackathons: [
     
