@@ -1,4 +1,5 @@
 // import { HackathonCard } from "@/components/hackathon-card";
+import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -169,7 +170,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          {/* <BlurFade delay={BLUR_FADE_DELAY * 14}>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.hackathons.map((project, id) => (
                 <BlurFade
@@ -187,7 +188,7 @@ export default function Page() {
                 </BlurFade>
               ))}
             </ul>
-          </BlurFade> */}
+          </BlurFade>
         </div>
       </section>
       <section id="contact">

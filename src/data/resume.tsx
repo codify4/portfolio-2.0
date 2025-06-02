@@ -21,11 +21,12 @@ export const DATA = {
     "Nest.js",
     "Postgres",
     "Supabase",
-    "Framer Motion",
-    "MongoDB",
     "TailwindCSS",
     "Prisma",
+    "DrizzleORM",
     "C++",
+    "C#",
+    "Express"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -81,9 +82,21 @@ export const DATA = {
       title: "Intern Frontend Developer",
       logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQGm1JDuFrwvXA/company-logo_200_200/company-logo_200_200/0/1673136222435/helloalbania_logo?e=1740614400&v=beta&t=INfIw_IQeZ6EHpo_KwQvsvCIjyimEa0WqBBXJTPntEM",
       start: "June 2024",
-      end: "Ongoing",
+      end: "May 2025",
       description:
         "I work as a frontend developer implementing UI components and features for booking trips by boat or by car. Helping to build a seamless user experience for travelers.",
+    },
+    {
+      company: "Hello Albania",
+      href: "https://www.linkedin.com/company/helloalbania/",
+      badges: [],
+      location: "Remote",
+      title: "Developer",
+      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQGm1JDuFrwvXA/company-logo_200_200/company-logo_200_200/0/1673136222435/helloalbania_logo?e=1740614400&v=beta&t=INfIw_IQeZ6EHpo_KwQvsvCIjyimEa0WqBBXJTPntEM",
+      start: "May 2025",
+      end: "Ongoing",
+      description:
+        "I work as a web developer implementing UI features for booking trips by boat or by car. Improving SEO and user experience.",
     },
   ],
   education: [
@@ -208,7 +221,7 @@ export const DATA = {
       title: "QuickCash ",
       href: "https://quick-cash.vercel.app/",
       dates: "December 2024 - Builing",
-      active: true,
+      active: false,
       description:
         "Manage expenses, loans and subscriptions with ease. Get started now and take control of your finances.",
       technologies: [
@@ -254,8 +267,46 @@ export const DATA = {
       image: "/sneaky.png",
       video: "",
     },
+    {
+      title: "Workout Mate",
+      href: "https://workout-mate-landing.vercel.app/",
+      dates: "January 2025 - May 2025",
+      active: true,
+      description:
+        "AI personal trainer in your pocket.",
+      technologies: [
+        "Next.js",
+        "Expo",
+        "Typescript",
+        "TailwindCSS",
+        "Supabase",
+        "Gemini API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://workout-mate-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/workout.png",
+      video: "",
+    },
   ],
   hackathons: [
-    
+    {
+      title: "JunctionX Tirana",
+      description: "",
+      location: "Tirana, Albania",
+      dates: "May 2025",
+      image: "/junctionx.png",
+      links: [
+        {
+          title: "Website",
+          href: "https://tirana.hackjunction.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    }
   ],
 } as const;
